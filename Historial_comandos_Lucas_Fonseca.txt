@@ -1,0 +1,155 @@
+sudo apt update
+sudo apt upgrade
+sudo reboot
+ls
+sudo apt install git 
+cd ..
+ls
+sudo mkdir -p repogit
+ls
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+sudo git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+sudo git https://github.com/ruklansi/UTNFRA_SO_1P1C_2025_Fonseca_Lucas.git
+sudo git clone https://github.com/ruklansi/UTNFRA_SO_1P1C_2025_Fonseca_Lucas.git
+ls
+ls -ld /home/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+sudo chown repogit:repogit /home/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+chmod u+w /home/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+cd ..
+sudo cp repogit /home/vagrant/
+sudo cp -r repogit /home/vagrant/
+ls
+cd vagrant/
+ls
+cd repogit/
+ls
+cd UTN-FRA_SO_Examenes/202410/
+LS
+ls
+ls -ld /home/vagrant/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+sudo chown vagrant:vagrant /home/vagrant/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+chmod u+w /home/vagrant/repogit/UTNFRA_SO_1P1C_2025_Fonseca_Lucas
+bash ./script_Precondicion.sh 
+sudo nano script_Precondicion.sh 
+sudo chmod +x script_Precondicion.sh
+bash ./script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+sudo apt install tree -y
+cd ..
+tree UTNFRA_SO_1P1C_2025_Fonseca_Lucas/
+cd UTNFRA_SO_1P1C_2025_Fonseca_Lucas/RTA_SCRIPT_Examen_20250515/
+ls
+sudo nano Punto_A.sh 
+bash ./Punto_A.sh 
+sudo nano Punto_B.sh 
+bash ./Punto_B.sh 
+sudo nano Punto_C.sh 
+bash ./Punto_C.sh 
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls
+cd repogit/
+ls
+sudo git clone git@github.com:ruklansi/TP1_AySO.git
+cat $HOME/.ssh/*.pub
+pbcopy < ~/.ssh/id_ed25519.pub
+sudo apt install pbcopy
+git config --list
+sudo git config --list
+git config --global user.email ruklansi@gmail.com
+git config --global user.name "Lucas Fonseca"
+git config --global user.username "ruklansi"
+sudo git config --list
+sudo git clone git@github.com:ruklansi/TP1_AySO.git
+ssh-keygen -t ed25519 -C "ruklansi@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+gh ssh-key add ~/.ssh/id_ed25519.pub --type signing
+sudo apt install gh
+gh ssh-key add ~/.ssh/id_ed25519.pub --type signing
+cat $HOME/.ssh/*.pub
+sudo git clone git@github.com:ruklansi/TP1_AySO.git
+sudo reboot
+cd repogit/
+sudo git clone git@github.com:ruklansi/TP1_AySO.git
+sudo git clone https://github.com/ruklansi/TP1_AySO.git
+ls
+cd TP1_AySO/
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep -i home_url /etc/os-release 
+grep home_url /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep -i home_url /etc/os-release 
+grep -i home_uRl /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+sudo echo "Usuario=$(whoami)" > datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -ld .
+chmod u+w .
+sudo chmod u+w .
+ls -ld .
+echo “Usuario=$(whoami)” > datos_usuario.txt
+sudo echo “Usuario=$(whoami)” > datos_usuario.txt
+sudo chown vagrant:vagrant .
+ls -ld .
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+nano datos_usuario.txt 
+git add .
+git config --global --add safe.directory /home/vagrant/repogit/TP1_AySO
+git add .
+sudo git add .
+sudo git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuario.txt"
+git config --global user.email "ruklansi@gmail.com"
+git config --global user.name "ruklansi"
+sudo git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+sudo git push
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "vagrant@vagrant.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+git remote -v
+git remote set-url origin git@github.com:ruklansi/TP1_AySO.git
+sudo git remote set-url origin git@github.com:ruklansi/TP1_AySO.git
+git remote -v
+ssh -T git@github.com
+sudo git push
+sudo chown -R vagrant:vagrant ~/.ssh
+chmod 600 ~/.ssh/id_ed25519
+chmod 644 ~/.ssh/id_ed25519.pub
+sudo chown -R vagrant:vagrant /home/vagrant/repogit/TP1_AySO
+git config --global user.name "Lucas Fonseca"
+git config --global user.email "ruklansi@gmail.com"
+git push
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuarios.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+ls
+rm datos_usuarios.txt 
+ls
+git commit -m "feat: Añadiendo información de CPU"
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Lucas David Fonseca
+División: 314
+Turno: Noche
+EOF
+
+ls -l
+cat README.md 
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo README y datos de usuario"
+git push
+history -a
